@@ -1,0 +1,109 @@
+.nav-section{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items:flex-start;
+    position: static;
+}
+
+
+.nav-section button{
+    color: rgb(9, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif black;
+    background-color: rgb(255, 130, 53);
+    border-radius: 10px;
+
+}
+
+main .foto-logo img{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2px;
+    align-content: flex-start;
+}
+    
+body{
+background-color: rgb(255, 255, 255);
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #21499b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #14265d47;
+    border-color: #072c7500;
+} 
+
+main .main-input .search-icon {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/light-e-treasure-3/search-286.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display:inline-block;
+    align-items: center;
+    
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #858589;
+    border: 0;
+    font-size: 14px;
+    color: #0b2239;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 25px;
+    align-items: center;
+
+}
+
+main .main-buttons button:hover {
+border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px #000001;
+color: #222;
+}
+
+footer .footer-left{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif black;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items:baseline;
+    position:sticky;
+}
+
+.footer-left button{
+    background-color:rgb(255, 130, 53);
+    border-radius: 10px;
+}
+

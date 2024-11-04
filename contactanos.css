@@ -1,0 +1,29 @@
+.contactfoto img {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2px;
+    align-content: flex-start;
+}
+
+header .principal h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif rgb(255, 130, 53);
+}
+
+header .principal h3{
+    color: rgb(9, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .footer-left{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif black;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items:baseline;
+    position:sticky;
+}
+
+.footer-left button{
+    background-color:rgb(255, 130, 53);
+    border-radius: 10px;
+}
